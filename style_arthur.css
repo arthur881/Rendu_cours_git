@@ -6,7 +6,95 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+h1{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 4px 4px #ffd2d2;
+}
+
+h3{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px #ffd2d2;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px #ffd2d2;
+}
+
+img{
+    height: 150px;
+}
+
+
+.fond{
+    height:auto;
     background-image: url(img_arthur/skate_background.jpg);
     background-size: cover;
+    padding: 0 40px;
+}
+
+.cadre1{
+    width: 60%;
+}
+
+.cadre2{
+    width: 40%;
+}
+
+.photo_profil{
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.presentation{
+    display: flex;
+}
+
+.contenu{
+    display: flex;
+}
+
+.plein{
+    width: 55%;
+}
+
+.vide{
+    width: 45%;
+}
+
+.photo_skate{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo_rugby{
+    height: 150px;
+}
+
+.photo_apex{
+    height: 150px;
+}
+
+.photo_the_last_of_us{
+    height: 200px;
+}
+
+.section_photo{
+    display: flex;
+    justify-content: center;
+}
+
+.img_space{
+    margin: 0 10px;
 }
