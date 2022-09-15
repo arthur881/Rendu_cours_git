@@ -1,10 +1,29 @@
-#1 {
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.partieune {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#profil {
-     height: 50px;
-     width: 50px;
+.photo{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.profil {
+     height: 250px;
+     width: 250px;
+}
+
+.nom {
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+h1 {
+    color: brown;
 }
