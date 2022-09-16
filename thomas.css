@@ -60,7 +60,7 @@ hr {
     width: 1200px;
     margin: 0px auto;
     border: none;
-    background-color: white;
+    background-color: #f9cece;
 }
 
 .passion {
@@ -148,6 +148,13 @@ hr {
     margin: auto 0px;
     
 
+}
+
+.fin{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f9cece ;
 }
 
 .line-1{
