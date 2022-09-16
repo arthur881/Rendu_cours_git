@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;1,500&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+    background-color: #F8E2E2;
+    color: white;
+}
+
+body {
+    
 }
 .partieune {
     display: flex;
@@ -10,20 +19,39 @@
 }
 
 .photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 100px;
     text-align: center;
 }
 
+.text{
+    display: block;
+    padding-left: 400px;
+}
 .profil {
      height: 250px;
      width: 250px;
+     border: 3px white;
 }
 
 .nom {
     padding-top: 10px;
     text-decoration: underline;
+    padding-bottom: 30px;
+    font-size: 40px;
 }
 
-h1 {
-    color: brown;
+.info {
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+hr {
+    height: 3px;
+    width: 800px;
+    margin: 0px auto;
+    border: none;
+    background-color: white;
 }
