@@ -25,7 +25,9 @@ h3{
 p{
     text-align: center;
     font-size: 25px;
+    font-weight: 600;
     text-shadow: 2px 2px #ffd2d2;
+    background-color: rgb(150, 150, 150, 0.2);
 }
 
 img{
