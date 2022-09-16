@@ -99,3 +99,72 @@ img{
 .img_space{
     margin: 0 10px;
 }
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    h1{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 70px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .fond{
+        height:auto;
+        background-image: url(img_arthur/skate_background.jpg);
+        background-size:cover;
+        background-attachment: fixed;
+        padding: 0 40px;
+    }
+
+    .cadre1{
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .cadre2{
+        width: 100%;
+    }
+
+    .photo_profil{
+        margin-bottom: 100px;
+    }
+
+    .plein{
+        width: 100%;
+    }
+    
+    .vide{
+        width: 100%;
+    }
+
+    .presentation{
+        display: block;
+    }
+
+    .photo_skate{
+        height: 150px;
+    }
+
+    .section_photo{
+        display: block;
+    }
+
+    .photo_the_last_of_us{
+        height: 170px;
+    }
+
+    .img_resp{
+        display: none;
+    }
+}
