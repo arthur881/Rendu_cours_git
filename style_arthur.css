@@ -93,6 +93,7 @@ img{
 .section_photo{
     display: flex;
     justify-content: center;
+    margin: 20px 0;
 }
 
 .img_space{
