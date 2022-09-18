@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;1,500&display=swap%27');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 4px 4px #ffd2d2;
+}
+
+h3{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px #ffd2d2;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 2px 2px #ffd2d2;
+    background-color: rgb(150, 150, 150, 0.2);
+}
+
+img{
+    height: 150px;
+}
+
+
+.fond{
+    height:auto;
+    background-image: url(img_arthur/skate_background.jpg);
+    background-size: cover;
+    padding: 0 40px;
+}
+
+.cadre1{
+    width: 60%;
+}
+
+.cadre2{
+    width: 40%;
+}
+
+.photo_profil{
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.presentation{
+    display: flex;
+}
+
+.contenu{
+    display: flex;
+}
+
+.plein{
+    width: 55%;
+}
+
+.vide{
+    width: 45%;
+}
+
+.photo_skate{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo_rugby{
+    height: 150px;
+}
+
+.photo_apex{
+    height: 150px;
+}
+
+.photo_the_last_of_us{
+    height: 200px;
+}
+
+.section_photo{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.img_space{
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+.projet{
+    height:auto;
+    background-image: url(img_arthur/code_backgroung.jpg);
+    background-size: cover;
+    padding: 0 40px;
+    padding-top: 100px;
+}
+
+.pave_projet{
+    margin: 0 250px;
+}
+
+.text_projet{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.section_photo_projet{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px ;
+    padding-bottom: 200px;
+}
+
+.photo_projet{
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    padding: 30px 15px;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-size: 1.2rem;
+
+}
+a:after {    
+    bottom: 10;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    h1{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 70px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .fond{
+        height:auto;
+        background-image: url(img_arthur/skate_background.jpg);
+        background-size:cover;
+        background-attachment:fixed;
+        padding: 0 40px;
+    }
+
+    .cadre1{
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .cadre2{
+        width: 100%;
+    }
+
+    .photo_profil{
+        margin-bottom: 100px;
+    }
+
+    .plein{
+        width: 100%;
+    }
+    
+    .vide{
+        width: 100%;
+    }
+
+    .presentation{
+        display: block;
+    }
+
+    .photo_skate{
+        height: 150px;
+    }
+
+    .section_photo{
+        display: block;
+    }
+
+    .photo_the_last_of_us{
+        height: 170px;
+    }
+
+    .img_resp{
+        display: none;
+    }
+
+
+
+    .photo_projet{
+        height: 180px;
+    }
+
+    .pave_projet{
+        margin: 0 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    nav ul li {
+        list-style: none;
+        padding: 30px 5px;
+        position: relative;
+    }
+}
