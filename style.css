@@ -41,3 +41,8 @@ a:after {
     width: 100%; 
     left: 0; 
   }
+
+.titre {
+    text-align: center;
+    justify-content: center;
+}
