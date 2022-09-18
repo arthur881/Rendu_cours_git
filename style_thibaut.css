@@ -152,3 +152,71 @@
 span{
     color: #00bcd4 ;
 }
+
+.thrid-section{
+    background-color: rgb(40, 39, 39);
+}
+
+.passion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10p;
+    padding: 25px;
+}
+
+.title-passion{
+    color: white;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.passion-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.passion-container{
+    width: 400px;
+    height: 400px;
+    margin: 15px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.passion-container:hover .overlay{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.overlay{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(1.3);
+    opacity: 0;
+    transition: transform .4s ease 0s;
+}
+
+.overlay p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 5em;
+    color: #fff;
+    font-family: Sans-serif;
+}
+
+.passion-container img{
+    transition: transform .8s ease;
+}
+
+.passion-container:hover img{
+    transform: scale(1.1);
+}
