@@ -9,6 +9,40 @@
     color: white;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    padding: 30px 15px;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-size: 1.2rem;
+
+}
+a:after {    
+    bottom: 10;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
 
 .partieune {
     display: flex;
@@ -157,21 +191,6 @@ hr {
     background-color: #f9cece ;
 }
 
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);  
-    padding-top: 80px;
-    text-decoration: underline;  
-    font-size: 65px;
-}
 
 /* Animation */
 .anim-typewriter{
@@ -185,4 +204,52 @@ hr {
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+
+@media screen and (max-width: 800px){
+    .photo{
+        margin: auto;
+        display: grid;
+    }
+
+    .projets{
+        margin: auto;
+        justify-content: center;
+    }
+
+    .fin{
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #f9cece ;
+    }
+
+    .conteneur12{
+        display: grid;
+        margin: auto;
+    }
+
+    .passion{
+        margin: auto;
+        text-align: center;
+        padding-left: 0px;
+    padding-right: 0px;
+    }
+
+    .text{
+        margin: auto;
+        display: block;
+        justify-content: center;
+        text-align: center;
+        background-color: #f9cece;
+        padding-left: 0%;
+    }
+    .profil {
+         height: 300px;
+         width: 250px;
+         border: 3px white;
+         border-radius: 50%;
+         margin: auto;
+    }
 }
