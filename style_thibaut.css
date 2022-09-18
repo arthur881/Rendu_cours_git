@@ -12,14 +12,17 @@ nav {
     justify-content: center;
     background-color: grey;
 }
+
 nav ul {
     display: flex;
+
 }
 nav ul li {
     list-style: none;
     padding: 30px 15px;
     position: relative;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #fff;
@@ -38,6 +41,7 @@ a:after {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
+
 a:hover:after { 
     width: 100%; 
     left: 0; 
