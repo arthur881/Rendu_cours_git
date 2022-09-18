@@ -58,17 +58,40 @@ a:hover:after {
 h1 {
     margin-bottom: 10px;
 }
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 30px;
+}
+.intro img {
+    width: 200px;
+}
+.intro p {
+    max-width: 500px;
+}
 
 .sport{
     display: flex;
     padding: 50px;
+    padding-bottom: 0;
 }
 .sport_txt {
     width: 50%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    padding: 50px;
+    margin: 50px;
+    padding-bottom: 110px;
+}
+.sport_txt h3 {
+    margin-bottom: 30px;
 }
 .sport_img {
     width: 50%;
@@ -80,4 +103,34 @@ h1 {
 }
 .sport_img img:nth-child(2) {
     transform: translate(200px, -50px);
+}
+
+.loisir {
+    display: flex;
+    padding: 0 50px;
+}
+.loisir_img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.loisir_txt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    padding-bottom: 50px;
+}
+.loisir_txt h3 {
+    margin-bottom: 30px;
+}
+
+.loisir_img img {
+    width: 300px;
+}
+
+.loisir_img img:nth-child(2) {
+    transform: translate(-190px, -70px);
 }
