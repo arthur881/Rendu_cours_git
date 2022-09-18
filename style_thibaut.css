@@ -7,6 +7,42 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    padding: 30px 15px;
+    position: relative;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    font-size: 1.2rem;
+
+}
+a:after {    
+    bottom: 10;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
 .first-section{
     display: flex;
     align-items: center;
