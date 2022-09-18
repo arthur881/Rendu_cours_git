@@ -252,4 +252,10 @@ hr {
          border-radius: 50%;
          margin: auto;
     }
+
+    nav ul li {
+        list-style: none;
+        padding: 25px 10px;
+        position: relative;
+    }
 }
