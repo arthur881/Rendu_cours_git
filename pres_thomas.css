@@ -7,6 +7,9 @@
 html{
     font-family: 'Montserrat', sans-serif;
 }
+p {
+    font-size: 17px;
+}
 header {
     height: 50vh;
     color: #fff;
@@ -90,9 +93,6 @@ main {
     margin: 50px;
     padding-bottom: 110px;
 }
-.sport_txt h3 {
-    margin-bottom: 30px;
-}
 .sport_img {
     width: 50%;
     display: flex;
@@ -173,4 +173,92 @@ hr {
 }
 .projet_img img:nth-child(2) {
     transform: translate(220px, -100px);
+}
+
+@media screen and (max-width: 425px) {
+
+    nav ul li{
+        padding: 30px 6px;
+    }
+    .hero {
+        margin: 90px 0;
+    }
+    .hero h2{
+        text-align: center;
+    }
+    .intro {
+        gap: 15px;
+        margin: 40px 15px;
+    }
+    .intro img {
+        width: 137px;
+    }
+    .sport {
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .sport_txt {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 15px;
+    }
+    h3 {
+        margin-bottom: 10px;
+    }
+    .sport_img {
+        width: 100%;
+    }
+    .sport_img img:nth-child(1) {
+        transform: translateX(-35px);
+    }
+    .sport_img img:nth-child(2) {
+        transform: translate(65px, -50px);
+    }
+    .loisir {
+        flex-direction: column-reverse;
+    }
+    .loisir_txt {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 15px;
+    }
+    .loisir_img {
+        width: 100%;
+    }
+    .loisir_img img:nth-child(1) {
+        transform: translateX(-60px);
+    }
+    .loisir_img img:nth-child(2) {
+        transform: translate(40px, -50px);
+    }
+    .dogo img {
+        width: 200px;
+    }
+    .dogo p {
+        text-align: center;
+    }
+    .projet {
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .projet_txt {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 15px;
+    }
+    .projet_img {
+        width: 100%;
+    }
+
+    .projet_img img:nth-child(1) {
+        transform: translateX(-35px);
+    }
+    .projet_img img:nth-child(2) {
+        transform: translate(192px, -53px);
+        width: 150px;
+    }
+
 }
